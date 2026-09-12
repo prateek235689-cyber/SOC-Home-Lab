@@ -1,0 +1,32 @@
+┌───────────────────┐
+│    Kali Linux     │
+│ Attacker Machine  │
+└─────────┬─────────┘
+          │
+          │ Simulated attacks
+          ▼
+┌───────────────────┐
+│ Windows Endpoint  │
+│  Victim Machine   │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│      Sysmon       │
+│ Endpoint Telemetry│
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│ Windows Event Log │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│ Splunk Enterprise │
+│       SIEM        │
+└─────────┬─────────┘
+          │
+          ▼
+   Detection & SOC
+    Investigation
